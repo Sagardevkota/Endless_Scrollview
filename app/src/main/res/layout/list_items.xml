@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/ivImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+
+            android:padding="10dp"
+
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvProduct_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:fontFamily="monospace"
+            android:text="Name"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvFixed_Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Rs.1200"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fc2312"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMarked_Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="1500"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

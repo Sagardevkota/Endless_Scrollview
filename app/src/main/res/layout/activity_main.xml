@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/endless_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        tools:context=".MainActivity">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvCurrentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Location"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/getCurrentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get current location"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
